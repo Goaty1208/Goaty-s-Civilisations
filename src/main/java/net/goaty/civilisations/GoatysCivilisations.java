@@ -15,10 +15,11 @@ public class GoatysCivilisations implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("[CIVS] Loading Goaty's Civilisations...");
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("[CIVS] Loaded!");
 	}
 }
