@@ -13,10 +13,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public final static Item TEST_ITEM = registerItem("test_item", new Item(new FabricItemSettings()));
+    public final static Item Paycheck = registerItem("paycheck", new Item(new FabricItemSettings()));
 
     private static void addItemsToCreativeTab(FabricItemGroupEntries entries){
-        entries.add(TEST_ITEM);
+        entries.add(Paycheck);
     }
 
     private static Item registerItem(String name, Item item){
