@@ -25,7 +25,7 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        GoatysCivilisations.LOGGER.info("[Civs] Registering items");
+        GoatysCivilisations.LOGGER.info("[CIVS] Registering items");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToCreativeTab);
     }

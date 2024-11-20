@@ -2,6 +2,7 @@ package net.goaty.civilisations;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.goaty.civilisations.item.ModItemGroups;
 import net.goaty.civilisations.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,7 @@ public class GoatysCivilisations implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("[CIVS] Loading Goaty's Civilisations...");
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 
 		LOGGER.info("[CIVS] Loaded!");
